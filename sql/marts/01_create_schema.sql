@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS marts;
+
+DROP TABLE IF EXISTS marts.fct_orders CASCADE;
+DROP TABLE IF EXISTS marts.dim_customers CASCADE;
+DROP TABLE IF EXISTS marts.dim_products CASCADE;
+DROP TABLE IF EXISTS marts.dim_sellers CASCADE;
+DROP TABLE IF EXISTS marts.dim_dates CASCADE;
